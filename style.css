@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.top span i{
+    color: yellow;
+}
+.Guarder{
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    height: 670px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.521);
+
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+    font-size: 21px;
+
+}
+nav ul li{
+    display: inline-block;
+    font-size: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+nav ul li:first-child a {
+    padding: 32px 10px 10px 10px;
+    background-color: black;
+    
+}
+.RESPOSIBILITY{
+    
+    margin-top: 18%;
+    margin-left: 20%;
+    
+
+}
+.safty{
+    color: white;
+    
+}
+.resposible{
+    color: yellow;
+}
+.RESPOSIBILITY p{
+    color: white;
+    margin: 15px 0;
+    font-size: 15px;
+    width: 45%;
+}
+.RESPOSIBILITY button{
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+.get{
+    color: white;
+    background-color: yellow;
+
+}
+.loading{
+    color: yellow;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 70%;
+}
+.about-us{
+    display: flex;
+    padding: 50px 20%;
+    
+    position: relative;
+}
+.contactbg{
+    background-image: url(about-img.jpg);
+    background-size: cover;
+    width: 50%;
+    position: relative;
+    height: 300px;
+}
+.aboutright{
+    width: 35%;
+    padding: 25px 10px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #efefef;
+    line-height: 25px;
+    top: 75px;
+    right: 240px;
+
+}
+.aboutright h3 span{
+    border-bottom: 5px solid yellow;
+    
+
+}
+.aboutright p{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.aboutright button{
+    color: white;
+    background-color: yellow;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+.services{
+    padding: 60px 20% 50px 20%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.services h3 span{
+    border-bottom: 5px solid yellow;
+    border-radius: 4px;
+
+}
+.blockflex{
+    display: flex;
+    
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.block1{
+    width: 32%;
+    color: black;
+    padding: 15px;
+    background-color: white;
+}
+.block1 button{
+    color: white;
+    background-color: yellow;
+    padding: 7px 25px;
+    border: none;
+}
+.block1 p{
+    font-size: 15px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+.block1 h4{
+    margin-top: 10px;
+}
+.Clients{
+    padding: 50px 20%;
+    text-align: center;
+    position: relative;
+
+}
+.Clients h3 span{
+
+    border-bottom: 5px solid yellow;
+    border-radius: 4px;
+}
+.Clients img{
+    margin-top: 40px;
+}
+.Clients h4{
+    margin: 15px 0px;
+}
+.Clients p{
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    padding: 0 130px;
+}
+.left-arrow span i{
+    padding: 10px 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+.left-arrow{
+    position: absolute;
+    top: 160px;
+}
+.right-arrow{
+    position: absolute;
+    top: 160px;
+    right: 270px;
+
+}
+.right-arrow span i{
+    padding: 10px 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.getInTouch{
+    background-image: url(contact-bg.jpg);
+    background-size: cover;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-blend-mode: darken;
+    text-align: center;
+    padding: 70px 35%;
+    color: white;
+}
+.getInTouch h3{
+    margin-bottom: 40px;
+
+}
+.getInTouch h3 span{
+    border-bottom: 5px solid yellow;
+    border-radius: 2px;
+
+    
+}
+.getInTouch input{
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    width: 100%;
+
+}
+.getInTouch textarea{
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    width: 100%;
+
+}
+.getInTouch button{
+    background-color: yellow;
+    padding: 7px 35px;
+    font-size: 13px;
+    color: white;
+    border: none;
+}
+.Guards{
+    text-align: center;
+    padding: 50px 20%;
+}
+.Guards h3 span{
+    border-bottom: 5px solid yellow;
+    border-radius: 2px;
+}
+.Guards>p{
+    margin: 10px  0 20px 0;
+    font-size: 15px;
+    color: rgb(63, 63, 63);
+}
+.guardsflex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.mens{
+    width: 32%;
+    background-image: url(t1.jpg);
+    background-size: cover;
+    height: 290px;
+    color: white;
+    position: relative;
+
+}
+.para{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.664);
+    padding: 20px 20%;
+    line-height: 25px;
+    position: absolute;
+    bottom: 0;
+    
+}
+.mens2{
+    width: 32%;
+    background-image: url(t2.jpg);
+    background-size: cover;
+    height: 290px;
+    color: white;
+    position: relative;
+
+}
+.mens3{
+    width: 32%;
+    background-image: url(t3.jpg);
+    background-size: cover;
+    height: 290px;
+    color: white;
+    position: relative;
+
+}
+.Guards button{
+    color: white;
+    background-color: yellow;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding:50px 20% 10px 20% ;
+    
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    width: 22%;
+}
+.b1 h3{
+    margin-bottom: 20px;
+}
+.b1 p{
+    font-size: 15px;
+}
+.b2{
+    width: 22%;
+}
+.heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.b3{
+    width: 22%;
+    
+    font-size: 15px;
+}
+.b3 p{
+    margin-bottom: 15px;
+}
+.b4{
+    width: 22%;
+}
+.b4 input{
+padding: 8px;
+font-size: 13px;
+border-radius: 20px;
+border: none;
+margin-bottom: 10px;
+}
+.b4 button{
+    color: white;
+    background-color: yellow;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 7px 15px;
+}
+.icons{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.last{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    padding: 60px 25% 5px;
+
+    
+}
+
+
+
